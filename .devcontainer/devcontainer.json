@@ -1,7 +1,6 @@
 {
   "name": "MariaDB Dev Container",
   "image": "mariadb:10.11",
-  "workspaceFolder": "/workspace",
   "forwardPorts": [3306],
   "containerEnv": {
     "MYSQL_ROOT_PASSWORD": "rootpassword",
