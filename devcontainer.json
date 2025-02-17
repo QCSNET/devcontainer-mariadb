@@ -1,0 +1,15 @@
+{
+    "name": "MariaDB Dev Container",
+    "image": "mariadb:10.11",
+    "workspaceFolder": "/workspace",
+    "forwardPorts": [3306],
+    "containerEnv": {
+      "MYSQL_ROOT_PASSWORD": "rootpassword",
+      "MYSQL_DATABASE": "coderdb",
+      "MYSQL_USER": "coder",
+      "MYSQL_PASSWORD": "coderpassword"
+    },
+    "settings": {},
+    "postCreateCommand": "",
+    "extensions": []
+  }  
